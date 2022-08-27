@@ -36,6 +36,7 @@ export default function LoadImage(props) {
           },
         },
       ]);
+      console.log('Resized image: ', resized);
       setImage(resized.uri);
       props.setImage(resized.uri);
     }
